@@ -1,15 +1,43 @@
-h1, h2, h3{
-    color: rgb(125, 59, 108);
-    background-color: rgb(0, 0, 0) 
+/*
+border and stuff idk
+*/
+
+h1{
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+h2{
+    color: white;
+    background-color: grey;
+}
+
+div{
+    color: white;
+    background-color: grey;
+    background-blend-mode: darken;
+    height: 400px;
+    width: 350px;
+    border: 5px solid white;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+}
+
+h3{
+    background-color: black;
+    text-align: center;
 }
 
 body{
-    background-image: url("./img/moorish-pattern.jpg");
-    display: flex;
-    flex-direction: column;
+    background-image: url("./img/showcase.jpg");
 }
 
 ul{
     color: white;
-    background-color: grey;
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
 }
